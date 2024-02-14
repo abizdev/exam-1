@@ -1,0 +1,18 @@
+/* dm */
+@font-face {
+  font-family: 'dm';
+  src: url('../fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* jost */
+@font-face {
+  font-family: 'jost';
+  src: url('../fonts/Jost-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'jost';
+  src: url('../fonts/Jost-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}

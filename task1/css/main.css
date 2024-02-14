@@ -1,0 +1,108 @@
+@import 'fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  padding: 64px 0;
+}
+
+/* ==== hero ==== */
+.hero {
+  height: 629px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17px;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.hero__info--title {
+  font-size: 56px;
+  line-height: 130%;
+  font-weight: 700;
+  color: #252525;
+}
+
+.hero__info--descr {
+  max-width: 386px;
+  width: 100%;
+  font-size: 26px;
+  line-height: 130%;
+  color: rgba(37, 37, 37, 0.8);
+}
+
+.hero__info--btn {
+  background: #252525;
+  padding: 16px 32px;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+  border-radius: 16px;
+  transition: 0.3s ease-in-out;
+}
+.hero__info--btn:hover {
+  background: rgba(37, 37, 37, 0.2);
+  color: #252525;
+}
+
+.hero__images {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.hero__images img {
+  width: 408px;
+  height: 480px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+.hero__images img:first-of-type {
+  margin-bottom: 152px;
+}
+
+/* ==== cards ==== */
+
+.cards {
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card span {
+  font-size: 40px;
+  line-height: 130%;
+  color: rgba(37, 37, 37, 0.2);
+  font-weight: 500;
+}
+
+.card img {
+  border-radius: 16px;
+}

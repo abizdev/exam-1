@@ -1,0 +1,11 @@
+@import '_tailwind.css';
+
+* {
+  font-family: 'jost';
+  font-weight: 400;
+}
+
+
+.form-item {
+  @apply border-b border-black outline-none py-[13px] text-[22px] leading-[150%] placeholder:text-[22px] placeholder:leading-[150%] text-slate-900
+}
